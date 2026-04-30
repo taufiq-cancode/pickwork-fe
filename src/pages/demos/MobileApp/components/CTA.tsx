@@ -20,18 +20,18 @@ const CTA = () => {
                         <Col lg={5}>
 
                             <h2 className="mb-4">Find Help Anytime, Anywhere</h2>
-                            <p className="mb-4">Download the PickWork app to find and hire workers near you. Whether you need a plumber, electrician, or someone to run an errand, we're here to help.</p>
+                            <p className="mb-4">Download the Pickwork app to find and hire workers near you. Whether you need a plumber, electrician, or someone to run an errand, we're here to help.</p>
 
                             <Row className="g-4 mb-4 mb-lg-0">
                                 <Col sm={4} xs={6}>
-                                    <Link to="">
+                                    <Link to="/coming-soon">
                                         <img src={googlePlay}
                                             className="btn-transition" alt="google-store" />
                                     </Link>
                                 </Col>
 
                                 <Col sm={4} xs={6}>
-                                    <Link to="">
+                                    <Link to="/coming-soon">
                                         <img src={appStore}
                                             className="btn-transition" alt="app-store" />
                                     </Link>

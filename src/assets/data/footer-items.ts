@@ -1,6 +1,6 @@
 import type { IconType } from 'react-icons'
 import { BsEnvelope, BsGeoAlt, BsTelephone } from 'react-icons/bs'
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTiktok, FaTwitter, FaWhatsapp, FaXTwitter, FaYoutube } from 'react-icons/fa6'
+import { FaInstagram, FaTiktok, FaXTwitter } from 'react-icons/fa6'
 
 type FooterLinkType = {
   name: string
@@ -41,10 +41,10 @@ export const quickLinks: FooterLinkType[] = [
 ]
 
 export const socialMediaLinks: SocialMediaLink[] = [
-  { icon: FaInstagram, iconClassName: "bg-instagram", link: "https://www.instagram.com/pickwork.co" },
-  // { icon: FaFacebookF, iconClassName: "bg-facebook", link: "https://www.facebook.com/pickwork.ng" },
-  { icon: FaTiktok, iconClassName: "bg-tiktok", link: "https://www.tiktok.com/@pickwork.co" },
-  { icon: FaXTwitter, iconClassName: "bg-twitter", link: "https://x.com/pickworkdotco" },
+  { icon: FaInstagram, iconClassName: "bg-instagram", link: "https://www.instagram.com/Pickwork.co" },
+  // { icon: FaFacebookF, iconClassName: "bg-facebook", link: "https://www.facebook.com/Pickwork.ng" },
+  { icon: FaTiktok, iconClassName: "bg-tiktok", link: "https://www.tiktok.com/@Pickwork.co" },
+  { icon: FaXTwitter, iconClassName: "bg-twitter", link: "https://x.com/Pickworkdotco" },
   // { icon: FaWhatsapp, iconClassName: "bg-whatsapp", link: "https://wa.me/2348144211111" }
 ]
 

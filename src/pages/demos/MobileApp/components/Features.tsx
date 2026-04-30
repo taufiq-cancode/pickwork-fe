@@ -8,7 +8,7 @@ const Features = () => {
             <Container>
 
                 <div className="inner-container-small text-center mb-9">
-                    <h2 className="mb-4">Features that make PickWork better!</h2>
+                    <h2 className="mb-4">Features that make Pickwork better!</h2>
                     <p className="mb-0">Connect with reliable workers in your area. Our platform ensures you find the right person for every job, skilled or unskilled.</p>
                 </div>
 
@@ -142,17 +142,6 @@ const Features = () => {
                                 <i></i>
                                 <b></b>
                             </div>
-
-
-                            <ul className="list-inline mb-2">
-                                <li className="list-inline-item me-1"><BsStarFill className="text-warning fs-6" /></li>
-                                <li className="list-inline-item me-1"><BsStarFill className="text-warning fs-6" /></li>
-                                <li className="list-inline-item me-1"><BsStarFill className="text-warning fs-6" /></li>
-                                <li className="list-inline-item me-1"><BsStarFill className="text-warning fs-6" /></li>
-                                <li className="list-inline-item"><BsStarFill className="text-warning fs-6" /></li>
-                            </ul>
-                            <h6 className="mb-2">4.5 /5.0 Rating on google</h6>
-                            <p className="mb-0">365 Ratings & Reviews</p>
                         </Col>
 
 

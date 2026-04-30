@@ -16,7 +16,7 @@ const Hero = () => {
                 <Row>
                     <Col lg={6} className="mb-5 mb-sm-8 mb-md-9 mb-lg-0">
 
-                        <h1 className="position-relative lh-base mb-4">Need work? Pickwork. Need worker? Pickwork!
+                        <h1 className="position-relative lh-base mb-4">Need work? <span style={{ fontWeight: 'bold' }}>Pickwork</span>. Need worker? <span style={{ fontWeight: 'bold' }}>Pickwork</span>!
                             <span className="position-absolute top-0 start-0 translate-middle mt-1 ms-n5">
                                 <svg className="fill-primary" width="86" height="105" viewBox="0 0 86 105" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -34,13 +34,13 @@ const Hero = () => {
                         <Row className="g-2 mb-5">
 
                             <Col sm={4} md={3} xs={6}>
-                                <Link to=""> <img src={googlePlay}
+                                <Link to="/coming-soon"> <img src={googlePlay}
                                     className="btn-transition"
                                     alt="google-store" /> </Link>
                             </Col>
 
                             <Col sm={4} md={3} xs={6}>
-                                <Link to=""> <img src={appStore} className="btn-transition"
+                                <Link to="/coming-soon"> <img src={appStore} className="btn-transition"
                                     alt="app-store" /> </Link>
                             </Col>
                         </Row>
@@ -51,10 +51,10 @@ const Hero = () => {
 
                         <div
                             className="bg-body shadow d-none d-sm-block heading-color fw-semibold position-absolute top-0 start-50 translate-middle mt-n6 px-3 py-2 ms-n4">
-                            <BsPatchCheckFill className="text-primary me-2" />Secure & Verified
+                            <BsPatchCheckFill className="me-2" style={{ color: '#c44d00' }} />Secure & Verified
                         </div>
 
-                        <div className="avatar avatar-lg position-absolute top-0 start-0 mt-n8 ms-8">
+                        {/* <div className="avatar avatar-lg position-absolute top-0 start-0 mt-n8 ms-8">
                             <img className="avatar-img rounded-circle d-none d-md-block"
                                 src={avatarPlaceholder}
                                 alt="avatar" />
@@ -68,7 +68,7 @@ const Hero = () => {
 
                         <div className="avatar position-absolute bottom-0 end-0 me-8">
                             <img className="avatar-img rounded-circle" src={avatarPlaceholder} alt="avatar" />
-                        </div>
+                        </div> */}
 
                         <figure className="position-absolute top-0 start-50">
                             <svg width="42" height="54" viewBox="0 0 42 54" fill="none"

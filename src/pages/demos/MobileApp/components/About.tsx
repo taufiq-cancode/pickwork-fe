@@ -1,5 +1,5 @@
-import aboutcustomer from '@/assets/images/pickwork/customer.jpg'
-import aboutworker from '@/assets/images/pickwork/worker.jpg'
+import aboutcustomer from '@/assets/images/Pickwork/customer.jpg'
+import aboutworker from '@/assets/images/Pickwork/worker.jpg'
 import avatar3 from '@/assets/images/avatar/03.jpg'
 import avatar5 from '@/assets/images/avatar/05.jpg'
 import { Col, Container, Row } from "react-bootstrap";
@@ -26,7 +26,7 @@ const About = () => {
                             <p className="text-white small mb-0">Get instant help from our amazing workers 🛠️</p>
                         </div>
 
-                        <div
+                        {/* <div
                             className="bg-white shadow rounded d-flex align-items-center px-3 py-2 position-absolute bottom-0 end-0 mb-4 me-5">
 
                             <div className="avatar avatar-sm flex-shrink-0 me-2">
@@ -34,7 +34,7 @@ const About = () => {
                                     alt="avatar" />
                             </div>
                             <p className="text-dark small mb-0">Trusted by thousands 🤗</p>
-                        </div>
+                        </div> */}
 
                         <figure className="position-absolute top-0 end-0 mt-5 me-4">
                             <svg width="161" height="159" viewBox="0 0 161 159" fill="none"
@@ -82,11 +82,11 @@ const About = () => {
 
                     <Col lg={6} className="order-lg-2">
 
-                        <h2 className="mb-4 mb-lg-5">Pickwork: Your local hub for every task</h2>
-                        <p className="mb-4 mb-lg-5">Stop stressing over complicated repairs or forgotten errands. Whether you need a skilled plumber or someone to help with delivery, PickWork connects you with workers close to you, ready to help.</p>
+                        <h2 className="mb-4 mb-lg-5">Pickwork: Connecting you with trusted workers.</h2>
+                        <p className="mb-4 mb-lg-5">Stop stressing over complicated repairs or forgotten errands. Whether you need a skilled plumber or someone to help with delivery, Pickwork connects you with workers close to you, ready to help.</p>
 
 
-                        <div className="d-flex flex-wrap gap-5 mb-4 mb-lg-5">
+                        {/* <div className="d-flex flex-wrap gap-5 mb-4 mb-lg-5">
                             {
                                 statData.map((item, idx) => (
                                     <div key={idx}>
@@ -101,9 +101,9 @@ const About = () => {
                                     </div>
                                 ))
                             }
-                        </div>
+                        </div> */}
 
-                        <Link to="" className="btn btn-dark mb-0">Join waitlist</Link>
+                        <Link to="/coming-soon" className="btn btn-dark mb-0">Join waitlist</Link>
                     </Col>
                 </Row>
             </Container>

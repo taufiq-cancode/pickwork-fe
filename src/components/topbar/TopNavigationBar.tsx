@@ -44,9 +44,8 @@ const TopNavigationBar = ({ showSignUp, showBuyNow, navClassName, darkButton, co
           <ul className="nav align-items-center ms-sm-2">
 
             {showSignUp && <li className="nav-item me-2 d-none d-sm-block">
-              <Link to="/auth/sign-up" className="btn btn-sm btn-light mb-0">
-                <BsPersonCircle className="me-1" />
-                Sign up
+              <Link to="/coming-soon" className="btn btn-sm btn-light mb-0">
+                Join Waitlist
               </Link>
             </li>}
 

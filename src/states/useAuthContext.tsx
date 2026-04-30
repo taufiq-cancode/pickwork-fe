@@ -20,7 +20,7 @@ export function useAuthContext() {
   return context
 }
 
-const authSessionKey = '_PICKWORK_AUTH_KEY_'
+const authSessionKey = '_Pickwork_AUTH_KEY_'
 
 export function AuthProvider({ children }: Readonly<{ children: ReactNode }>) {
   const navigate = useNavigate()

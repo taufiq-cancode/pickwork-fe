@@ -1,4 +1,4 @@
-import { currentYear, developedBy, developedByLink } from '@/states/constants'
+import { currentYear } from '@/states/constants'
 import { Container } from 'react-bootstrap'
 
 const Footer = () => {

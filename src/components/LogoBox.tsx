@@ -1,10 +1,10 @@
 import { NavbarBrand } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
-import logo from '@/assets/images/pickwork/logo.png'
-import logoWhite from '@/assets/images/pickwork/logo-white.png'
-import logoSmall from '@/assets/images/pickwork/logo-icon.png'
-import logoIconWhite from '@/assets/images/pickwork/logo-icon-white.png'
+import logo from '@/assets/images/Pickwork/logo.png'
+import logoWhite from '@/assets/images/Pickwork/logo-white.png'
+import logoSmall from '@/assets/images/Pickwork/logo-icon.png'
+import logoIconWhite from '@/assets/images/Pickwork/logo-icon-white.png'
 
 type LogoBoxProps = {
     className?: string

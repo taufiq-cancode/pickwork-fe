@@ -1,5 +1,5 @@
 import { lazy } from 'react'
-import { Navigate, type RouteProps } from 'react-router-dom'
+import { type RouteProps } from 'react-router-dom'
 
 // Demo Pages
 const MobileApp = lazy(() => import('@/pages/demos/MobileApp'))
@@ -72,6 +72,11 @@ const initialRoutes: RoutesProps[] = [
   {
     path: '/',
     name: 'root',
+    element: <MobileApp />,
+  },
+  {
+    path: '/coming-soon',
+    name: 'coming-soon',
     element: <ComingSoon />,
   },
 

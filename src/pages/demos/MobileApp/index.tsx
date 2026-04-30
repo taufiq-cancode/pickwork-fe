@@ -10,7 +10,7 @@ import PageTitle from '@/components/PageTitle'
 const MobileApp = () => {
   return (
     <>
-      <PageTitle title='PickWork - Find Skilled & Unskilled Workers' />
+      <PageTitle title='Pickwork | Connecting you with trusted workers.' />
 
       <TopNavigationBar
         showSignUp

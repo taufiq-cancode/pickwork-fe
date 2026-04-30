@@ -19,15 +19,15 @@ const Footer7 = () => {
                   const Icon = item.icon
                   return (
                     <li key={item.iconClassName + idx} className="list-inline-item pe-1">
-                      <Link className="btn btn-xs btn-icon btn-light" to="">
+                      <a className="btn btn-xs btn-icon btn-light" href={item.link || '#'} target='_blank' rel='noreferrer'>
                         <Icon />
-                      </Link>
+                      </a>
                     </li>
                   )
                 })}
               </ul>
 
-              <div className="text-body mt-4"> Copyrights ©{currentYear} PickWork. All rights reserved. </div>
+              <div className="text-body mt-4"> Copyrights ©{currentYear} Pickwork. All rights reserved. </div>
             </Col>
           </Row>
         </div>

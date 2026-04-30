@@ -4,7 +4,7 @@ const PageTitle = ({ title }: { title: string }) => {
   const defaultTitle = 'Pickwork'
   return (
     <Helmet>
-      <title>{title ? title + ' | ' + defaultTitle : defaultTitle}</title>
+      <title>{title || defaultTitle}</title>
     </Helmet>
   )
 }

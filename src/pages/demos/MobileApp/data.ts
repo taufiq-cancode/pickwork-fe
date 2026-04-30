@@ -41,7 +41,7 @@ export const testimonials: TestimonialType[] = [
             firstName: "Ade",
             lastName: "Olawale",
         },
-        comment: "I found an amazing plumber within minutes. PickWork is a lifesaver for busy professionals!",
+        comment: "I found an amazing plumber within minutes. Pickwork is a lifesaver for busy professionals!",
         rating: 5,
     },
     {
@@ -50,7 +50,7 @@ export const testimonials: TestimonialType[] = [
             firstName: "Grace",
             lastName: "Chidi",
         },
-        comment: "As an electrician, PickWork has doubled my monthly income. The verification process gives my clients peace of mind.",
+        comment: "As an electrician, Pickwork has doubled my monthly income. The verification process gives my clients peace of mind.",
         rating: 5,
     },
     {
@@ -59,7 +59,7 @@ export const testimonials: TestimonialType[] = [
             firstName: "Sani",
             lastName: "Abubakar",
         },
-        comment: "I used PickWork for domestic help and the experience was seamless. Highly recommended!",
+        comment: "I used Pickwork for domestic help and the experience was seamless. Highly recommended!",
         rating: 4.5,
     },
     {

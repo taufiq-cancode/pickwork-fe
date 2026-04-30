@@ -33,7 +33,7 @@ const ComingSoon = () => {
 
   return (
     <>
-      <PageTitle title="" />
+      <PageTitle title="Pickwork | Connecting you with trusted workers." />
 
       <Topbar />
 
@@ -42,18 +42,18 @@ const ComingSoon = () => {
           <Container>
             <Row className="d-flex justify-content-center align-items-center text-center">
               <Col xl={8}>
-                <h1 className="h1 position-relative lh-base mb-4">Pickwork: Connecting you with trusted workers.</h1>
-                <p className="mb-5">Need help with any task? Pickwork connects you to trusted skilled and unskilled workers, quickly and effortlessly.</p>
+                <h5 className="fw-bold mb-3" style={{ color: '#c44d00' }}>Launching soon</h5>
+                <h1 className="h2 position-relative lh-base mb-4">Pickwork: Connecting you with trusted workers.</h1>
                 <form className="mt-5" onSubmit={handleJoinWaitlist}>
                   <b className="mb-3 d-block">Join our waitlist to get notified when we launch</b>
                   {message && <Alert variant="success" className="mx-auto" style={{ maxWidth: '500px' }}>{message}</Alert>}
                   {error && <Alert variant="danger" className="mx-auto" style={{ maxWidth: '500px' }}>{error}</Alert>}
                   <Col md={8} className="mx-auto bg-light border rounded-2 p-2 mt-3">
                     <div className="input-group">
-                      <FormControl 
-                        className="focus-shadow-none bg-light border-0 me-1" 
-                        type="email" 
-                        placeholder="Enter your email address" 
+                      <FormControl
+                        className="focus-shadow-none bg-light border-0 me-1"
+                        type="email"
+                        placeholder="Enter your email address"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         disabled={loading}

@@ -16,7 +16,7 @@ const Steps = () => {
       <Container>
 
         <div className="inner-container-small text-center mb-4 mb-sm-5">
-          <h2 className="mb-4">Get things done in 3 easy steps</h2>
+          <h2 className="mb-4">Get things done in these steps</h2>
           <p className="mb-0">Finding reliable help is simple. Browse through verified workers in your area and connect with them directly on the app.</p>
         </div>
 
@@ -39,14 +39,14 @@ const Steps = () => {
                 <div className="icon-lg bg-dark rounded-circle fw-bold text-white mb-3">01</div>
                 <h5>Sign up & Create Profile</h5>
                 <p className="heading-color">Download the app and choose if you're a worker or a customer. Setup your profile in seconds.</p>
-                <div className='icons-center gap-3'>
+                {/* <div className='icons-center gap-3'>
                   <Link to=""><img src={androidImg} className="h-30px"
                     alt="icon-img" /></Link>
                   <Link to=""><img src={microSoftImg} className="h-30px"
                     alt="icon-img" /></Link>
                   <Link to=""><img src={appleImg} className="h-30px"
                     alt="icon-img" /></Link>
-                </div>
+                </div> */}
               </Card.Body>
 
               <Card.Footer className="bg-transparent p-0">
@@ -72,7 +72,7 @@ const Steps = () => {
                 <h5>Find Workers Near You</h5>
                 <p className="heading-color">Browse through skilled and unskilled workers in your neighborhood. Check their ratings and expertise.</p>
 
-                <Link to="" className="btn btn-sm btn-white mb-0">Browse categories</Link>
+                {/* <Link to="" className="btn btn-sm btn-white mb-0">Browse categories</Link> */}
               </Card.Body>
 
               <Card.Footer className="bg-transparent p-0">
@@ -97,8 +97,8 @@ const Steps = () => {
                 <div className="icon-lg bg-dark rounded-circle fw-bold text-white mb-3">03</div>
                 <h5>Reach Out & Hire</h5>
                 <p className="heading-color mb-2">Message or call workers directly to discuss your needs and hire them on the spot.</p>
-
-                <Link style={{ color: '#c44d00' }} to="">Check our FAQs for help</Link>
+                <br></br>
+              {/* <Link style={{ color: '#c44d00' }} to="">Check our FAQs for help</Link> */}
               </Card.Body>
 
               <Card.Footer className="bg-transparent p-0 mb-n9 ms-n5 mt-4">
