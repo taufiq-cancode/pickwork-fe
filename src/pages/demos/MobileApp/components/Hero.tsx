@@ -3,7 +3,6 @@ import appStore from '@/assets/images/elements/app-store.svg'
 import appImg1 from '@/assets/images/mokeup/app-placeholder.png'
 import appImg2 from '@/assets/images/mokeup/app-placeholder2.png'
 
-import avatarPlaceholder from '@/assets/images/avatar/placeholder.jpg'
 import { Col, Container, Row } from "react-bootstrap";
 import { BsPatchCheckFill } from "react-icons/bs";
 

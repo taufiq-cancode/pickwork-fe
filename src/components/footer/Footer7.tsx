@@ -1,6 +1,5 @@
 import { socialMediaLinks } from '@/assets/data/footer-items'
 import LogoBox from '../LogoBox'
-import { Link } from 'react-router-dom'
 import { currentYear } from '@/states/constants'
 import { Col, Container, Row } from 'react-bootstrap'
 

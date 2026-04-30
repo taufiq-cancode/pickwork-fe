@@ -1,5 +1,4 @@
 import { Suspense, type ReactNode } from 'react'
-import { BsPersonCircle } from 'react-icons/bs'
 import { Link } from 'react-router-dom'
 import { Button, Container, type ButtonProps } from 'react-bootstrap'
 
@@ -31,12 +30,19 @@ const TopNavigationBar = ({ showSignUp, showBuyNow, navClassName, darkButton, co
           <LogoBox className='me-0' />
 
           <Suspense>
-            <div className="navbar-collapse collapse">
+            <div className={`navbar-collapse collapse ${isMenuOpen ? 'show' : ''}`} id="navbarCollapse">
               <ul className="navbar-nav mx-auto">
                 <li className="nav-item"><a className="nav-link" href="#home">Home</a></li>
                 <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
                 <li className="nav-item"><a className="nav-link" href="#how-it-works">How it works</a></li>
                 <li className="nav-item"><a className="nav-link" href="#features">Features</a></li>
+                {showSignUp && (
+                  <li className="nav-item d-block d-sm-none mt-2 mb-2">
+                    <Link to="/coming-soon" className="btn btn-sm btn-light w-100">
+                      Join Waitlist
+                    </Link>
+                  </li>
+                )}
               </ul>
             </div>
           </Suspense>

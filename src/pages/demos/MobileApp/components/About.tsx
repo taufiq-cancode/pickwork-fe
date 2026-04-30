@@ -1,10 +1,7 @@
 import aboutcustomer from '@/assets/images/Pickwork/customer.jpg'
 import aboutworker from '@/assets/images/Pickwork/worker.jpg'
-import avatar3 from '@/assets/images/avatar/03.jpg'
 import avatar5 from '@/assets/images/avatar/05.jpg'
 import { Col, Container, Row } from "react-bootstrap";
-import { statData } from "@/pages/demos/MobileApp/data";
-import CountUp from "react-countup";
 import { Link } from 'react-router-dom';
 
 const About = () => {

@@ -1,5 +1,5 @@
 import placeholderImg5 from '@/assets/images/mokeup/app-placeholder5.png'
-import { BsFingerprint, BsGear, BsShieldCheck, BsChevronBarContract, BsStarFill } from 'react-icons/bs';
+import { BsFingerprint, BsGear, BsShieldCheck, BsChevronBarContract } from 'react-icons/bs';
 import { Col, Container, Row } from "react-bootstrap";
 
 const Features = () => {

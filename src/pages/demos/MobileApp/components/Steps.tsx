@@ -1,14 +1,10 @@
 import placeholderImg7 from '@/assets/images/mokeup/app-placeholder7.png'
 import placeholderImg3 from '@/assets/images/mokeup/app-placeholder3.png'
 import placeholderImg4 from '@/assets/images/mokeup/app-placeholder4.png'
-import androidImg from '@/assets/images/elements/android.svg'
-import microSoftImg from '@/assets/images/elements/microsoft.svg'
-import appleImg from '@/assets/images/elements/apple.svg'
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper/modules";
 import { Card, Container } from "react-bootstrap";
-import { Link } from 'react-router-dom'
 
 const Steps = () => {
   return (
