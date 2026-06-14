@@ -4,6 +4,7 @@ import About from "@/pages/demos/MobileApp/components/About"
 import Steps from "@/pages/demos/MobileApp/components/Steps"
 import Features from "@/pages/demos/MobileApp/components/Features"
 import CTA from "@/pages/demos/MobileApp/components/CTA"
+import ContactForm from "@/pages/demos/MobileApp/components/ContactForm"
 import Footer7 from '@/components/footer/Footer7'
 import PageTitle from '@/components/PageTitle'
 
@@ -21,6 +22,7 @@ const MobileApp = () => {
         <Steps />
         <Features />
         <CTA />
+        <ContactForm />
       </main>
       <Footer7 />
     </>
