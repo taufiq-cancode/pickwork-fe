@@ -3,7 +3,7 @@ import { useForm } from "react-hook-form";
 import { yupResolver } from "@hookform/resolvers/yup";
 import * as yup from "yup";
 import { useState } from "react";
-import { BsEnvelopePaperHeart, BsSend, BsCheckCircle } from "react-icons/bs";
+import { BsEnvelopeOpenFill, BsSend, BsCheckCircle } from "react-icons/bs";
 import TextFormInput from "@/components/form/TextFormInput";
 import TextAreaFormInput from "@/components/form/TextAreaFormInput";
 import SelectFormInput from "@/components/form/SelectFormInput";
@@ -61,7 +61,7 @@ const ContactForm = () => {
     };
 
     return (
-        <section className="position-relative" id="contact">
+        <section className="position-relative py-5" id="contact">
             <Container>
                 <div className="bg-light rounded position-relative overflow-hidden p-4 p-sm-6">
                     {/* Decorative SVG elements */}
@@ -130,8 +130,8 @@ const ContactForm = () => {
                         {/* Left Column - Info */}
                         <Col lg={5}>
                             <div className="pe-lg-4">
-                                <div className="icon-lg bg-primary bg-opacity-10 text-primary rounded-circle mb-4 flex-centered">
-                                    <BsEnvelopePaperHeart size={28} />
+                                <div className="icon-lg bg-primary text-white rounded-circle mb-4 flex-centered">
+                                    <BsEnvelopeOpenFill size={28} />
                                 </div>
 
                                 <h2 className="mb-3">Get In Touch</h2>
@@ -169,7 +169,7 @@ const ContactForm = () => {
                                                 Email us
                                             </small>
                                             <span className="fw-semibold">
-                                                hello@pickwork.ng
+                                                info@pickwork.co
                                             </span>
                                         </div>
                                     </div>
@@ -200,7 +200,7 @@ const ContactForm = () => {
                                                 Based in
                                             </small>
                                             <span className="fw-semibold">
-                                                Lagos, Nigeria
+                                                Nigeria
                                             </span>
                                         </div>
                                     </div>

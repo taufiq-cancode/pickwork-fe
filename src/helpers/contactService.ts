@@ -25,6 +25,13 @@ export function getContactLog(): (ContactFormPayload & {
     }
 }
 
+function generateId(): string {
+    return 'xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx'.replace(/[xy]/g, (c) => {
+        const r = (Math.random() * 16) | 0;
+        return (c === 'x' ? r : (r & 0x3) | 0x8).toString(16);
+    });
+}
+
 /**
  * Saves a contact form entry to the local log (localStorage).
  */
@@ -32,7 +39,7 @@ function saveToLog(data: ContactFormPayload): void {
     const log = getContactLog();
     const entry = {
         ...data,
-        id: crypto.randomUUID(),
+        id: generateId(),
         timestamp: new Date().toISOString(),
     };
     log.push(entry);

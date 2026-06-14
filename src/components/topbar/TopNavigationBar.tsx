@@ -36,6 +36,7 @@ const TopNavigationBar = ({ showSignUp, showBuyNow, navClassName, darkButton, co
                 <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
                 <li className="nav-item"><a className="nav-link" href="#how-it-works">How it works</a></li>
                 <li className="nav-item"><a className="nav-link" href="#features">Features</a></li>
+                <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
                 {showSignUp && (
                   <li className="nav-item d-block d-sm-none mt-2 mb-2">
                     <Link to="/coming-soon" className="btn btn-sm btn-light w-100">
